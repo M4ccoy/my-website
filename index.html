@@ -1,36 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Maksym Bilous</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maksym Bilous | Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <main class="container">
-    <header class="hero">
-      <h1 class="name">Maksym Bilous</h1>
-      <p class="bio">Student & Computer Engineering</p>
+    <div class="bg-gradient"></div>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">MB.</div>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <section class="about">
-      <h2>About Me</h2>
-      <p>
-        Passionate about software development, robotics, and emerging
-        technologies. I enjoy learning new programming languages, building
-        projects, and exploring innovative solutions in computer engineering.
-      </p>
-    </section>
+    <main>
+        <section id="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Maksym Bilous</h1>
+                    <p class="subtitle">Student & Computer Engineering</p>
+                    <p class="hero-description">Passionate about software development, robotics and emerging technologies.</p>
+                    <div class="cta-buttons">
+                        <a href="#contact" class="btn btn-primary">Get in touch</a>
+                        <a href="#about" class="btn btn-secondary">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <section class="contacts">
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:maksym@example.com">maksym@example.com</a></p>
-      <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
-    </section>
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <p>I enjoy learning new programming languages, building projects, and exploring innovative solutions in computer engineering. My focus lies at the intersection of robust software and intelligent hardware systems.</p>
+                </div>
+            </div>
+        </section>
+    </main>
 
-    <footer>
-      <p>© 2025 Maksym Bilous</p>
+    <footer id="contact">
+        <div class="container">
+            <h2 class="section-title">Connect</h2>
+            <div class="contact-links">
+                <a href="mailto:maksym@example.com" class="contact-item">
+                    <span class="label">Email:</span> maksym@example.com
+                </a>
+                <a href="https://github.com/maksym" target="_blank" class="contact-item">
+                    <span class="label">GitHub:</span> github.com/maksym
+                </a>
+            </div>
+            <p class="copyright">&copy; 2026 Maksym Bilous. Built with passion.</p>
+        </div>
     </footer>
-  </main>
 </body>
 </html>
